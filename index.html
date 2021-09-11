@@ -1,155 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <meta name="viewport" content="width=device-width, intial-scale=1.0">
-        <title>justinweicht - portfolio</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Weicht</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
 
-    <body>
-        <header>
-            <h1>
-                <a href="/">justinweicht</a>
-            </h1>
-            
-            <nav>
-                <ul>
-                    <li><a href="./index.html#about-me">About Me</a></li>
-                    <li><a href="./index.html#work-showcase">Work</a></li>
-                    <li><a href="./index.html#contact-info">Contact Me</a></li>
-                    <li><a href="./index.html#resume">Resume</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!--hero-->
-        <section class="hero flex">
-            <div class="banner-text flex">
-                <h2> placeholder motto </h2>
-            </div>
-        </section>
-
-        <!--about me section-->
-        <section id="about-me" class="bio flex">
-            <div class="flex">
-                <h2 class="section-title border">
-                    About Me
-                </h2>
-            </div>
-
-            <div class="bio-content">
-                <p>
-                    seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
-                </p>
-            </div>
-        </section>
-
-        <!--work section-->
-        <section id="work-showcase" class="work flex"> <!--work-panel-lrg class to enlarge single panel above other panels-->
-            <div class="flex">
-                <h2 class="section-title border">
-                    Work
-                </h2 class=>
-            </div>
-
-            <div class="work-title"><!--apply flexbox parent to panel-->
-                <a href="https://justinweicht.github.io/run-buddy/">Run Buddy</a> <!--project w/ link-->
-            </div>
-
-                <!--languages/tools showcased-->
-            <div class="tools">
-                <p>HTML, CSS</p>
-            </div>
-                <!--preview image ?or? add as background img in stylesheet ??-->
-            <div class="work-img-lrg">
-                    <img src="./assets/images/placeholder.jpeg" alt=""/>
-                </div>            
-            </div>
-            
-            <div class="flex">
-                <h3 class="work-title">
-                    Week 4 
-                </h3>
-                
-                <div class="tools">
-                    <p>JavaScript</p>
-                </div>
-                <!--preview image ?or? add as background img in stylesheet ??-->
-                <div class="work-img-sml">
-                    <img src="./assets/images/placeholder.jpeg" alt=""/>
-                </div>            
-            </div>
-
-            <div class="flex">
-                <h3 class="panel-title"> 
-                    
-                </h3>
-                
-                <div class="tools">
-                    <p>and exciting</p>
-                </div>
-                <!--preview image ?or? add as background img in stylesheet ??-->
-                <div class="work-img-sml">
-                    <img src="./assets/images/placeholder.jpeg" alt=""/>
-                </div>            
-            </div>
-
-            <div class="flex">
-                <h3 class="work-title"> 
-                    
-                </h3>
-                
-                <div class="tools">
-                    <p>and difficult</p>
-                </div>
-                <!--preview image ?or? add as background img in stylesheet ??-->
-                <div class="work-img-sml">
-                    <img src="./assets/images/placeholder.jpeg" alt=""/>
-                </div>            
-            </div>
-            <div class="flex">
-                <h3 class="work-title"> 
-                    
-                </h3>
-                
-                <div class="tools">
-                    <p>(still excited to learn about API's 🤫)</p>
-                </div>
-                <!--preview image ?or? add as background img in stylesheet ??-->
-                <div class="work-img-sml">
-                    <img src="./assets/images/placeholder.jpeg" alt=""/>
-                </div>            
-            </div>
-        </section>
+<body>
+    <header>
+    
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <div class="logo">
+            Justin Weicht</a>
+        </div>
+    
+        <nav class="navbar">
+            <a href="#about">about</a>
+            <a href="#projects">projects</a>
+        </nav>
+    </header>
+    
+    <!-- main/hero section  -->
+    
+    <main class="home" id="home">
+        <div class="content">
+            <h3>enjoy what you do.<br> do what you enjoy.
+            </h3>
+        </div>
         
-        <section id="contact-me" class="contact flex">
-            <div class="section-title">
-                <h2>Contact Me</h2>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="">555.555.5555</a></li>
-                    <li><a href="">project@porfolio.com</a></li>
-                    <li><a href="">GitHub</a></li>
-                    <li><a href="">Twitter</a></li>
-                    <li><a href="">MySpace</a></li>
-                </ul>
-            </nav>               
-      </section>
+        <div class="video-container">
+            <video src="images/Untitled.mp4" id="video-slider" loop="" autoplay="" muted=""></video>
+        </div>
+    </main>
 
-      <section id="resume" class="resume flex"> <!--work-panel-lrg class to enlarge single panel above other panels-->
-        <div class="section-title">
-            <h2>Resume</h2>
-            <div class="resume-img">
-                <a href="PLACEHOLDER"
+    <!-- expenses section starts  -->
+
+    <main class="about" id="about">
+        
+        <h1 class="heading">
+            <span>a</span>
+            <span>b</span>
+            <span>o</span>
+            <span>u</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./images/about.jpeg" alt="">
             </div>
-                        
+
+            <form>
+
+                <p>
+                    Hi! My name is Justin and I'm glad that you've found my GitHub page.<br>
+                    <br>
+                    I'm currently in the midst of switching careers from a very proficient commercial HVAC/R technician into a software developer due to a severe injury.<br>
+                    <br>
+                    After accepting that I needed to change career paths, I thought back to high school and the classes that I enjoyed. My favorite class, by far was the grade 10, 11, and 12 programming/computer science classes.<br>
+                    <br>
+                    After coding on my own for a few months I started to feel that same excitement from my highschool classes all over again. I’m super excited to face the adversity of being a software developer in a modern world that relies on technology.<br>
+                    <br>
+                    Currently, I am enrolled in the Trilogy Coding Bootcamp, University of Toronto. I've always been a lifelong learner and enjoy diving headfirst into a new technology. Even now, our class has just finished assigning groups for the final group project and I'm really looking forward to learning Python after the course is done.
+                </p>
+
+            </form>
+
+        </div>
+        
+    </main>
+
+    <!-- projects section starts  -->
+
+    <main class="projects" id="projects">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>r</span>
+            <span>o</span>
+            <span>j</span>
+            <span>e</span>
+            <span>c</span>
+            <span>t</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>explore</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>explore</h3>
+                    <p>Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>explore</h3>
+                    <p>Mauris pellentesque pulvinar pellentesque habitant morbi tristique. .</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>explore</h3>
+                    <p>Ultricies integer quis auctor elit sed vulputate mi sit amet. </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3> explore </h3>
+                    <p>Est velit egestas dui id ornare. Tellus in hac habitasse platea dictumst vestibulum rhoncus. </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3> explore </h3>
+                    <p>Ultrices vitae auctor eu augue ut lectus arcu. </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3> explore </h3>
+                    <p>Vivamus at augue eget arcu.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>explore </h3>
+                    <p>Ipsum dolor sit amet consectetur adipiscing elit duis tristique.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>explore</h3>
+                    <p>Nisi scelerisque eu ultrices vitae auctor eu. </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
         </div>
 
-  </body>
+    </main>
+        
+    <!-- footer section -->
 
+    <section class="footer">
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>about Me</h3><p>Porttitor leo a diam sollicitudin tempor id eu nisl. Tincidunt augue interdum velit euismod in pellentesque. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. </p>
+            </div>
+            
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">projects</a>
+            </div>
+            <div class="box">
+                <h3>connect</h3>
+                <a href="#">linkedin</a>
+                <a href="#">GitHub</a>
+                <a href="#">facebook</a>
+            </div>
+        </div>
+    
+        <h1 class="credit"> created by: Justin Weicht | for: 02-portfolio | from: 15/16-project-2 </h1>
+    </section>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-  <footer>
-
-  </footer>
+</body>
