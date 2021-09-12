@@ -69,7 +69,7 @@ main {
 
 .btn:hover{
   background:rgba(173, 216, 230);
-  color:var(--blue);
+  color:rgba(173, 216, 230);
 }
 
 header{
@@ -101,7 +101,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-  color:var(--blue);
+  color:rgba(173, 216, 230);
 }
 
 header .icons i{
@@ -112,7 +112,7 @@ header .icons i{
 }
 
 header .icons i:hover{
-  color:var(--blue);
+  color:rgba(173, 216, 230);
 }
 
 #menu-bar{
@@ -160,28 +160,6 @@ header .icons i:hover{
   width:100%;
   object-fit: cover;
   margin-top: -1rem;
-}
-
-.home .controls{
-  padding:1rem;
-  border-radius: 5rem;
-  background:rgba(0,0,0,.7);
-  position: relative;
-  top:10rem;
-}
-
-.home .controls .vid-btn{
-  height:2rem;
-  width:2rem;
-  display: inline-block;
-  border-radius: 50%;
-  background:#fff;
-  cursor: pointer;
-  margin:0 .5rem;
-}
-
-.home .controls .vid-btn.active{
-  background:var(--blue);
 }
 
 .projects .box-container{
@@ -305,7 +283,7 @@ header .icons i:hover{
 }
 
 .footer .box-container .box a:hover{
-  color:var(--blue);
+  color:rgba(173, 216, 230);
   text-decoration: underline;
 }
 
